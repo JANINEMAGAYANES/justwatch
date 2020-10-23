@@ -30,7 +30,6 @@ class App extends React.Component {
             <TouchableHighlight
               style={styles.highlight}
               underlayColor="#a8dadc"
-              // We use onPress to open Modal and to set selected image url to state
               onPress={() =>
                 this.setState({
                   modalVisible: true,
